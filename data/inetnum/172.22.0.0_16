@@ -9,5 +9,6 @@ nserver:            m.in-addr-servers.dn42
 nserver:            x.in-addr-servers.dn42
 status:             ALLOCATED
 bgp-status:         ignore
+org:                ORG-DN42
 mnt-by:             DN42-MNT
 source:             DN42

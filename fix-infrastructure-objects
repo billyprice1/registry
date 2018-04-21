@@ -9,6 +9,7 @@ fix_dns() {
 		echo "domain:             ${DST}"
 		cat "data/dns/${SRC}" | grep '^nserver:' | tr -s " " | cut -d' ' -f2 | sort | uniq | xargs -i echo 'nserver:            {}'
 		echo 'status:             CONNECT'
+		echo 'org:                ORG-DN42'
 		echo 'mnt-by:             DN42-MNT'
 		echo 'source:             DN42'
 	} > "data/dns/${DST}"
@@ -24,6 +25,7 @@ fix_inetnum() {
 			cat "data/dns/${SRC}" | grep '^nserver:' | tr -s " " | cut -d' ' -f2 | sort | uniq | xargs -i echo 'nserver:            {}'
 			echo 'status:             ALLOCATED'
 			echo 'bgp-status:         ignore'
+			echo 'org:                ORG-DN42'
 			echo 'mnt-by:             DN42-MNT'
 			echo 'source:             DN42'
 		} >> "data/${CLASS}/${DST}"

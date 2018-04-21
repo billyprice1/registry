@@ -3,5 +3,6 @@ nserver:            g.zone-servers.dn42
 nserver:            m.zone-servers.dn42
 nserver:            x.zone-servers.dn42
 status:             CONNECT
+org:                ORG-DN42
 mnt-by:             DN42-MNT
 source:             DN42
