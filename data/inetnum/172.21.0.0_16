@@ -4,9 +4,10 @@ policy:             reserved
 remarks:            * Last available IPv4 space
 remarks:            * Max one /24 per person only allowed due to shortages
 cidr:               172.21.0.0/16
-nserver:            g.in-addr-servers.dn42
-nserver:            m.in-addr-servers.dn42
-nserver:            x.in-addr-servers.dn42
+nserver:            h.delegation-servers.dn42
+nserver:            j.delegation-servers.dn42
+nserver:            m.delegation-servers.dn42
+nserver:            s.delegation-servers.dn42
 status:             ALLOCATED
 bgp-status:         ignore
 org:                ORG-DN42

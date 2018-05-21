@@ -2,9 +2,10 @@ inetnum:            172.20.0.0 - 172.20.255.255
 cidr:               172.20.0.0/16
 netname:            NET-BLK016-DN42
 policy:             reserved
-nserver:            g.in-addr-servers.dn42
-nserver:            m.in-addr-servers.dn42
-nserver:            x.in-addr-servers.dn42
+nserver:            h.delegation-servers.dn42
+nserver:            j.delegation-servers.dn42
+nserver:            m.delegation-servers.dn42
+nserver:            s.delegation-servers.dn42
 status:             ALLOCATED
 bgp-status:         ignore
 org:                ORG-DN42

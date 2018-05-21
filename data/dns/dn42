@@ -1,7 +1,8 @@
 domain:             dn42
-nserver:            g.zone-servers.dn42
-nserver:            m.zone-servers.dn42
-nserver:            x.zone-servers.dn42
+nserver:            h.delegation-servers.dn42
+nserver:            j.delegation-servers.dn42
+nserver:            m.delegation-servers.dn42
+nserver:            s.delegation-servers.dn42
 status:             CONNECT
 org:                ORG-DN42
 mnt-by:             DN42-MNT
