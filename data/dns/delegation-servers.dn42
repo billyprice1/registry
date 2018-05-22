@@ -3,8 +3,8 @@ nserver:            h.delegation-servers.dn42 172.20.58.153
 nserver:            h.delegation-servers.dn42 fdff:feed:c0de::153
 nserver:            j.delegation-servers.dn42 172.20.1.154
 nserver:            j.delegation-servers.dn42 fd42:5d71:219:1::54
-nserver:            m.delegation-servers.dn42 172.20.163.118
-nserver:            m.delegation-servers.dn42 fdc3:c927:1455::f
+nserver:            m.delegation-servers.dn42 172.20.163.123
+nserver:            m.delegation-servers.dn42 fdc3:c927:1455:d42::53
 nserver:            s.delegation-servers.dn42 fd42:2950:202:1001::53
 mnt-by:             DN42-MNT
 status:             CONNECT
