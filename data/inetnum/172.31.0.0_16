@@ -1,11 +1,13 @@
 inetnum:            172.31.0.0 - 172.31.255.255
 remarks:            ** chaosvpn
-admin-c:            DUMMY-DN42
-tech-c:             DUMMY-DN42
-mnt-by:             DN42-MNT
-status:             ALLOCATED
-nserver:            ns1.chaosvpn.g.nic.dn42
-nserver:            ns2.chaosvpn.g.nic.dn42
 cidr:               172.31.0.0/16
 netname:            Unnamed 172.31.0.0/16 Network
+nserver:            h.delegation-servers.dn42
+nserver:            j.delegation-servers.dn42
+nserver:            m.delegation-servers.dn42
+nserver:            s.delegation-servers.dn42
+status:             ALLOCATED
+bgp-status:         ignore
+org:                ORG-DN42
+mnt-by:             DN42-MNT
 source:             DN42

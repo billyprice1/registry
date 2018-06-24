@@ -5,7 +5,6 @@ country:            DE
 admin-c:            JAN-DN42
 tech-c:             JAN-DN42
 mnt-by:             JAN-MNT
-nserver:            ns1.jan.dn42
 status:             ALLOCATED
 cidr:               172.22.125.128/27
 source:             DN42
